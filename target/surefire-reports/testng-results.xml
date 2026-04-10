@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-05T19:39:29 IST" name="Surefire suite" finished-at="2026-04-05T19:39:40 IST" duration-ms="11522">
+    <groups>
+    </groups>
+    <test started-at="2026-04-05T19:39:29 IST" name="Surefire test" finished-at="2026-04-05T19:39:40 IST" duration-ms="11522">
+      <class name="com.herokuapp.booker.restful.RestfulbookerTest">
+        <test-method signature="CreateToken()[pri:1, instance:com.herokuapp.booker.restful.RestfulbookerTest@79efed2d]" started-at="2026-04-05T19:39:29 IST" name="CreateToken" finished-at="2026-04-05T19:39:33 IST" duration-ms="4378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateToken -->
+        <test-method signature="CreateBooking()[pri:2, instance:com.herokuapp.booker.restful.RestfulbookerTest@79efed2d]" started-at="2026-04-05T19:39:33 IST" name="CreateBooking" finished-at="2026-04-05T19:39:34 IST" duration-ms="1142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateBooking -->
+        <test-method signature="GetBookingById()[pri:3, instance:com.herokuapp.booker.restful.RestfulbookerTest@79efed2d]" started-at="2026-04-05T19:39:34 IST" name="GetBookingById" finished-at="2026-04-05T19:39:36 IST" depends-on-methods="com.herokuapp.booker.restful.RestfulbookerTest.CreateBooking" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBookingById -->
+        <test-method signature="GetAllBookingById()[pri:4, instance:com.herokuapp.booker.restful.RestfulbookerTest@79efed2d]" started-at="2026-04-05T19:39:36 IST" name="GetAllBookingById" finished-at="2026-04-05T19:39:37 IST" duration-ms="1512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllBookingById -->
+        <test-method signature="UpdateBooking()[pri:5, instance:com.herokuapp.booker.restful.RestfulbookerTest@79efed2d]" started-at="2026-04-05T19:39:37 IST" name="UpdateBooking" finished-at="2026-04-05T19:39:38 IST" depends-on-methods="com.herokuapp.booker.restful.RestfulbookerTest.CreateBooking, com.herokuapp.booker.restful.RestfulbookerTest.CreateToken" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateBooking -->
+        <test-method signature="PartialUpdateBooking()[pri:6, instance:com.herokuapp.booker.restful.RestfulbookerTest@79efed2d]" started-at="2026-04-05T19:39:38 IST" name="PartialUpdateBooking" finished-at="2026-04-05T19:39:39 IST" depends-on-methods="com.herokuapp.booker.restful.RestfulbookerTest.CreateBooking, com.herokuapp.booker.restful.RestfulbookerTest.CreateToken" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PartialUpdateBooking -->
+        <test-method signature="DeleteBooking()[pri:7, instance:com.herokuapp.booker.restful.RestfulbookerTest@79efed2d]" started-at="2026-04-05T19:39:39 IST" name="DeleteBooking" finished-at="2026-04-05T19:39:40 IST" depends-on-methods="com.herokuapp.booker.restful.RestfulbookerTest.CreateBooking, com.herokuapp.booker.restful.RestfulbookerTest.CreateToken" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteBooking -->
+      </class> <!-- com.herokuapp.booker.restful.RestfulbookerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
