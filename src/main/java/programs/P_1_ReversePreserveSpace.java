@@ -2,7 +2,7 @@ package programs;
 
 public class P_1_ReversePreserveSpace {
     public static void main(String[] args) {
-        String ip = "Alkesh Sakhare";
+        String ip = "Hello Java Programming";
         // Remove spaces and reverse
         String reversed = new StringBuilder(ip.replaceAll(" ", ""))
                 .reverse()
